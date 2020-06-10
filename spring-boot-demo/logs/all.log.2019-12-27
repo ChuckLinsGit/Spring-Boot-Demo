@@ -1,0 +1,483 @@
+2019-12-27 09:58:32,322  INFO Version:21 - HV000001: Hibernate Validator 6.0.18.Final
+2019-12-27 09:58:33,572  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$9dd1f8ff] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 09:58:34,228  INFO DemoApplication:655 - The following profiles are active: dev
+2019-12-27 09:58:36,180  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-27 09:58:36,321  INFO RepositoryConfigurationDelegate:184 - Finished Spring Data repository scanning in 109ms. Found 1 repository interfaces.
+2019-12-27 09:58:36,321  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-27 09:58:36,321  INFO RepositoryConfigurationDelegate:184 - Finished Spring Data repository scanning in 4ms. Found 1 repository interfaces.
+2019-12-27 09:58:36,805  INFO GenericScope:295 - BeanFactory id=ff49e5ad-a434-3eb1-83dd-37e50c00a049
+2019-12-27 09:58:36,946  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 09:58:37,086  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$9dd1f8ff] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 09:58:38,073  INFO TomcatWebServer:92 - Tomcat initialized with port(s): 8080 (http)
+2019-12-27 09:58:39,291  INFO ContextLoader:284 - Root WebApplicationContext: initialization completed in 5048 ms
+2019-12-27 09:58:39,666  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: primaryPersistenceUnit]
+2019-12-27 09:58:39,853  INFO Version:46 - HHH000412: Hibernate Core {5.4.8.Final}
+2019-12-27 09:58:40,119  INFO Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-12-27 09:58:40,338  INFO HikariDataSource:110 - HikariPool-1 - Starting...
+2019-12-27 09:58:40,463  INFO HikariDataSource:123 - HikariPool-1 - Start completed.
+2019-12-27 09:58:40,478  INFO Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-12-27 09:58:41,509  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-12-27 09:58:41,509  INFO LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'primaryPersistenceUnit'
+2019-12-27 09:58:41,572  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: secondaryPersistenceUnit]
+2019-12-27 09:58:41,572  INFO HikariDataSource:110 - HikariPool-2 - Starting...
+2019-12-27 09:58:41,572  INFO HikariDataSource:123 - HikariPool-2 - Start completed.
+2019-12-27 09:58:41,572  INFO Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-12-27 09:58:41,650  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-12-27 09:58:41,650  INFO LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'secondaryPersistenceUnit'
+2019-12-27 09:58:41,837  WARN JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-27 09:58:42,948  INFO ThreadPoolTaskScheduler:171 - Initializing ExecutorService 'taskExecutor'
+2019-12-27 09:58:43,167  INFO DefaultSecurityFilterChain:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6f9a3325, org.springframework.security.web.context.SecurityContextPersistenceFilter@40b54762, org.springframework.security.web.header.HeaderWriterFilter@1dbc607d, org.springframework.security.web.csrf.CsrfFilter@77d54a41, org.springframework.security.web.authentication.logout.LogoutFilter@39ae6408, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1bea7b0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7809b43a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5e020dd1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@72ceafeb, org.springframework.security.web.session.SessionManagementFilter@a0e33db, org.springframework.security.web.access.ExceptionTranslationFilter@2a984952, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@31b650e9]
+2019-12-27 09:58:43,182  INFO PropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2019-12-27 09:58:43,245  WARN ArchaiusAutoConfiguration:120 - No spring.application.name found, defaulting to 'application'
+2019-12-27 09:58:43,245  WARN URLConfigurationSource:121 - No URLs will be polled as dynamic configuration sources.
+2019-12-27 09:58:43,245  INFO URLConfigurationSource:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-27 09:58:43,261  WARN URLConfigurationSource:121 - No URLs will be polled as dynamic configuration sources.
+2019-12-27 09:58:43,261  INFO URLConfigurationSource:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-27 09:58:43,526  INFO WelcomePageHandlerMapping:58 - Adding welcome page template: index
+2019-12-27 09:58:44,495  INFO DocumentationPluginsBootstrapper:160 - Context refreshed
+2019-12-27 09:58:44,557  INFO DocumentationPluginsBootstrapper:163 - Found 1 custom documentation plugin(s)
+2019-12-27 09:58:44,588  INFO ApiListingReferenceScanner:41 - Scanning for api listing references
+2019-12-27 09:58:44,807  INFO CachingConnectionFactory:524 - Attempting to connect to: [localhost:5672]
+2019-12-27 09:58:44,854  INFO CachingConnectionFactory:497 - Created new connection: rabbitConnectionFactory#38d525aa:0/SimpleConnection@372841d2 [delegate=amqp://chuck@127.0.0.1:5672/, localPort= 3787]
+2019-12-27 09:58:44,948  INFO TomcatWebServer:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-27 09:58:45,338  INFO DemoApplication:61 - Started DemoApplication in 13.267 seconds (JVM running for 14.572)
+2019-12-27 09:59:58,567  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2019-12-27 09:59:58,575  INFO DispatcherServlet:547 - Completed initialization in 7 ms
+2019-12-27 10:03:22,894  INFO Version:21 - HV000001: Hibernate Validator 6.0.18.Final
+2019-12-27 10:03:24,000  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8d2e2b7d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:03:24,628  INFO DemoApplication:655 - The following profiles are active: dev
+2019-12-27 10:03:25,338  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-27 10:03:25,400  INFO RepositoryConfigurationDelegate:184 - Finished Spring Data repository scanning in 59ms. Found 1 repository interfaces.
+2019-12-27 10:03:25,400  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-27 10:03:25,416  INFO RepositoryConfigurationDelegate:184 - Finished Spring Data repository scanning in 7ms. Found 1 repository interfaces.
+2019-12-27 10:03:25,853  INFO GenericScope:295 - BeanFactory id=731806f0-0a81-3b7a-8aa7-b288d5d5e15a
+2019-12-27 10:03:25,947  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:03:26,025  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8d2e2b7d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:03:26,228  INFO TomcatWebServer:92 - Tomcat initialized with port(s): 8080 (http)
+2019-12-27 10:03:27,401  INFO ContextLoader:284 - Root WebApplicationContext: initialization completed in 2773 ms
+2019-12-27 10:03:27,620  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: primaryPersistenceUnit]
+2019-12-27 10:03:27,698  INFO Version:46 - HHH000412: Hibernate Core {5.4.8.Final}
+2019-12-27 10:03:27,823  INFO Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-12-27 10:03:27,917  INFO HikariDataSource:110 - HikariPool-1 - Starting...
+2019-12-27 10:03:28,010  INFO HikariDataSource:123 - HikariPool-1 - Start completed.
+2019-12-27 10:03:28,010  INFO Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-12-27 10:03:28,620  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-12-27 10:03:28,620  INFO LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'primaryPersistenceUnit'
+2019-12-27 10:03:28,666  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: secondaryPersistenceUnit]
+2019-12-27 10:03:28,666  INFO HikariDataSource:110 - HikariPool-2 - Starting...
+2019-12-27 10:03:28,666  INFO HikariDataSource:123 - HikariPool-2 - Start completed.
+2019-12-27 10:03:28,666  INFO Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-12-27 10:03:28,744  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-12-27 10:03:28,744  INFO LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'secondaryPersistenceUnit'
+2019-12-27 10:03:28,994  WARN JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-27 10:03:29,447  INFO ThreadPoolTaskScheduler:171 - Initializing ExecutorService 'taskExecutor'
+2019-12-27 10:03:29,479  INFO PropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2019-12-27 10:03:29,494  WARN ArchaiusAutoConfiguration:120 - No spring.application.name found, defaulting to 'application'
+2019-12-27 10:03:29,494  WARN URLConfigurationSource:121 - No URLs will be polled as dynamic configuration sources.
+2019-12-27 10:03:29,494  INFO URLConfigurationSource:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-27 10:03:29,510  WARN URLConfigurationSource:121 - No URLs will be polled as dynamic configuration sources.
+2019-12-27 10:03:29,510  INFO URLConfigurationSource:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-27 10:03:29,609  INFO WelcomePageHandlerMapping:58 - Adding welcome page template: index
+2019-12-27 10:03:30,510  INFO DocumentationPluginsBootstrapper:160 - Context refreshed
+2019-12-27 10:03:30,526  INFO DocumentationPluginsBootstrapper:163 - Found 1 custom documentation plugin(s)
+2019-12-27 10:03:30,557  INFO ApiListingReferenceScanner:41 - Scanning for api listing references
+2019-12-27 10:03:30,698  INFO CachingConnectionFactory:524 - Attempting to connect to: [localhost:5672]
+2019-12-27 10:03:30,729  INFO CachingConnectionFactory:497 - Created new connection: rabbitConnectionFactory#605c7a9e:0/SimpleConnection@4a2dbcfc [delegate=amqp://chuck@127.0.0.1:5672/, localPort= 3993]
+2019-12-27 10:03:30,792  INFO TomcatWebServer:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-27 10:03:31,182  INFO DemoApplication:61 - Started DemoApplication in 8.415 seconds (JVM running for 9.342)
+2019-12-27 10:03:36,583  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2019-12-27 10:03:36,588  INFO DispatcherServlet:547 - Completed initialization in 5 ms
+2019-12-27 10:03:59,692  INFO RESTfulController:30 - =====<Get student with id: 1>=====
+2019-12-27 10:04:18,193  INFO RESTfulController:49 - =====<Get student with id: 1>=====
+2019-12-27 10:04:55,806  INFO RESTfulController:60 - =====<Post student Student(sid=null, name=null, age=null, score=null, classid=null)>=====
+2019-12-27 10:05:54,539  INFO RESTfulController:60 - =====<Post student Student(sid=null, name=null, age=null, score=null, classid=null)>=====
+2019-12-27 10:05:55,443  INFO RESTfulController:60 - =====<Post student Student(sid=null, name=null, age=null, score=null, classid=null)>=====
+2019-12-27 10:05:55,775  INFO RESTfulController:60 - =====<Post student Student(sid=null, name=null, age=null, score=null, classid=null)>=====
+2019-12-27 10:08:39,588  INFO RESTfulController:60 - =====<Post student Student(sid=null, name=null, age=null, score=null, classid=null)>=====
+2019-12-27 10:09:06,394  INFO RESTfulController:60 - =====<Post student Student(sid=null, name=null, age=null, score=null, classid=null)>=====
+2019-12-27 10:16:12,058  INFO RESTfulController:60 - =====<Post student Student(sid=null, name=null, age=null, score=null, classid=null)>=====
+2019-12-27 10:17:12,743  INFO RESTfulController:60 - =====<Post student Student(sid=null, name=null, age=null, score=null, classid=null)>=====
+2019-12-27 10:26:14,627  INFO RESTfulController:60 - =====<Post student Student(sid=null, name=null, age=null, score=null, classid=null)>=====
+2019-12-27 10:26:57,076  INFO RESTfulController:60 - =====<Post student Student(sid=null, name=null, age=null, score=null, classid=null)>=====
+2019-12-27 10:31:05,354  INFO RESTfulController:60 - =====<Post student Student(sid=null, name=null, age=null, score=null, classid=null)>=====
+2019-12-27 10:31:34,014  INFO RESTfulController:60 - =====<Post student Student(sid=null, name=null, age=null, score=null, classid=null)>=====
+2019-12-27 10:32:07,870  INFO RESTfulController:60 - =====<Post student Student(sid=null, name=null, age=null, score=null, classid=null)>=====
+2019-12-27 10:33:02,734  INFO RESTfulController:60 - =====<Post student Student(sid=null, name=null, age=null, score=null, classid=null)>=====
+2019-12-27 10:33:46,555  INFO Version:21 - HV000001: Hibernate Validator 6.0.18.Final
+2019-12-27 10:33:47,586  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$29810787] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:33:48,101  INFO DemoApplication:655 - The following profiles are active: dev
+2019-12-27 10:33:48,586  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-27 10:33:48,632  INFO RepositoryConfigurationDelegate:184 - Finished Spring Data repository scanning in 39ms. Found 1 repository interfaces.
+2019-12-27 10:33:48,632  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-27 10:33:48,632  INFO RepositoryConfigurationDelegate:184 - Finished Spring Data repository scanning in 4ms. Found 1 repository interfaces.
+2019-12-27 10:33:48,882  INFO GenericScope:295 - BeanFactory id=731806f0-0a81-3b7a-8aa7-b288d5d5e15a
+2019-12-27 10:33:48,976  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:33:49,039  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$29810787] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:33:50,354  INFO TomcatWebServer:92 - Tomcat initialized with port(s): 8080 (http)
+2019-12-27 10:33:51,525  INFO ContextLoader:284 - Root WebApplicationContext: initialization completed in 3408 ms
+2019-12-27 10:33:51,681  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: primaryPersistenceUnit]
+2019-12-27 10:33:51,744  INFO Version:46 - HHH000412: Hibernate Core {5.4.8.Final}
+2019-12-27 10:33:51,838  INFO Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-12-27 10:33:51,916  INFO HikariDataSource:110 - HikariPool-1 - Starting...
+2019-12-27 10:33:52,009  INFO HikariDataSource:123 - HikariPool-1 - Start completed.
+2019-12-27 10:33:52,025  INFO Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-12-27 10:33:52,556  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-12-27 10:33:52,556  INFO LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'primaryPersistenceUnit'
+2019-12-27 10:33:52,603  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: secondaryPersistenceUnit]
+2019-12-27 10:33:52,603  INFO HikariDataSource:110 - HikariPool-2 - Starting...
+2019-12-27 10:33:52,619  INFO HikariDataSource:123 - HikariPool-2 - Start completed.
+2019-12-27 10:33:52,619  INFO Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-12-27 10:33:52,681  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-12-27 10:33:52,681  INFO LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'secondaryPersistenceUnit'
+2019-12-27 10:33:52,947  WARN JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-27 10:33:53,415  INFO ThreadPoolTaskScheduler:171 - Initializing ExecutorService 'taskExecutor'
+2019-12-27 10:33:53,462  INFO PropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2019-12-27 10:33:53,478  WARN ArchaiusAutoConfiguration:120 - No spring.application.name found, defaulting to 'application'
+2019-12-27 10:33:53,493  WARN URLConfigurationSource:121 - No URLs will be polled as dynamic configuration sources.
+2019-12-27 10:33:53,493  INFO URLConfigurationSource:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-27 10:33:53,493  WARN URLConfigurationSource:121 - No URLs will be polled as dynamic configuration sources.
+2019-12-27 10:33:53,493  INFO URLConfigurationSource:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-27 10:33:53,587  INFO WelcomePageHandlerMapping:58 - Adding welcome page template: index
+2019-12-27 10:33:54,448  INFO DocumentationPluginsBootstrapper:160 - Context refreshed
+2019-12-27 10:33:54,463  INFO DocumentationPluginsBootstrapper:163 - Found 1 custom documentation plugin(s)
+2019-12-27 10:33:54,495  INFO ApiListingReferenceScanner:41 - Scanning for api listing references
+2019-12-27 10:33:54,635  INFO CachingConnectionFactory:524 - Attempting to connect to: [localhost:5672]
+2019-12-27 10:33:54,666  INFO CachingConnectionFactory:497 - Created new connection: rabbitConnectionFactory#7b44bfb8:0/SimpleConnection@2ff8d39b [delegate=amqp://chuck@127.0.0.1:5672/, localPort= 5169]
+2019-12-27 10:33:54,713  INFO TomcatWebServer:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-27 10:33:55,104  INFO DemoApplication:61 - Started DemoApplication in 8.63 seconds (JVM running for 9.508)
+2019-12-27 10:34:03,482  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2019-12-27 10:34:03,488  INFO DispatcherServlet:547 - Completed initialization in 5 ms
+2019-12-27 10:34:03,654  WARN DefaultHandlerExceptionResolver:199 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'sid': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'sid': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (PushbackInputStream); line: 1, column: 5]]
+2019-12-27 10:35:29,596  INFO Version:21 - HV000001: Hibernate Validator 6.0.18.Final
+2019-12-27 10:35:30,846  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b5cbc61f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:35:31,396  INFO DemoApplication:655 - The following profiles are active: dev
+2019-12-27 10:35:31,878  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-27 10:35:31,924  INFO RepositoryConfigurationDelegate:184 - Finished Spring Data repository scanning in 39ms. Found 1 repository interfaces.
+2019-12-27 10:35:31,924  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-27 10:35:31,940  INFO RepositoryConfigurationDelegate:184 - Finished Spring Data repository scanning in 5ms. Found 1 repository interfaces.
+2019-12-27 10:35:32,187  INFO GenericScope:295 - BeanFactory id=731806f0-0a81-3b7a-8aa7-b288d5d5e15a
+2019-12-27 10:35:32,281  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:35:32,347  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b5cbc61f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:35:32,546  INFO TomcatWebServer:92 - Tomcat initialized with port(s): 8080 (http)
+2019-12-27 10:35:33,729  INFO ContextLoader:284 - Root WebApplicationContext: initialization completed in 2318 ms
+2019-12-27 10:35:33,898  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: primaryPersistenceUnit]
+2019-12-27 10:35:33,980  INFO Version:46 - HHH000412: Hibernate Core {5.4.8.Final}
+2019-12-27 10:35:34,067  INFO Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-12-27 10:35:34,174  INFO HikariDataSource:110 - HikariPool-1 - Starting...
+2019-12-27 10:35:34,270  INFO HikariDataSource:123 - HikariPool-1 - Start completed.
+2019-12-27 10:35:34,281  INFO Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-12-27 10:35:34,846  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-12-27 10:35:34,853  INFO LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'primaryPersistenceUnit'
+2019-12-27 10:35:34,883  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: secondaryPersistenceUnit]
+2019-12-27 10:35:34,898  INFO HikariDataSource:110 - HikariPool-2 - Starting...
+2019-12-27 10:35:34,898  INFO HikariDataSource:123 - HikariPool-2 - Start completed.
+2019-12-27 10:35:34,898  INFO Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-12-27 10:35:34,992  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-12-27 10:35:34,992  INFO LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'secondaryPersistenceUnit'
+2019-12-27 10:35:35,273  WARN JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-27 10:35:35,729  INFO ThreadPoolTaskScheduler:171 - Initializing ExecutorService 'taskExecutor'
+2019-12-27 10:35:35,761  INFO PropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2019-12-27 10:35:35,776  WARN ArchaiusAutoConfiguration:120 - No spring.application.name found, defaulting to 'application'
+2019-12-27 10:35:35,776  WARN URLConfigurationSource:121 - No URLs will be polled as dynamic configuration sources.
+2019-12-27 10:35:35,776  INFO URLConfigurationSource:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-27 10:35:35,792  WARN URLConfigurationSource:121 - No URLs will be polled as dynamic configuration sources.
+2019-12-27 10:35:35,792  INFO URLConfigurationSource:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-27 10:35:35,908  INFO WelcomePageHandlerMapping:58 - Adding welcome page template: index
+2019-12-27 10:35:36,785  INFO DocumentationPluginsBootstrapper:160 - Context refreshed
+2019-12-27 10:35:36,801  INFO DocumentationPluginsBootstrapper:163 - Found 1 custom documentation plugin(s)
+2019-12-27 10:35:36,832  INFO ApiListingReferenceScanner:41 - Scanning for api listing references
+2019-12-27 10:35:36,973  INFO CachingConnectionFactory:524 - Attempting to connect to: [localhost:5672]
+2019-12-27 10:35:37,007  INFO CachingConnectionFactory:497 - Created new connection: rabbitConnectionFactory#77ce88c4:0/SimpleConnection@40cb95c1 [delegate=amqp://chuck@127.0.0.1:5672/, localPort= 5250]
+2019-12-27 10:35:37,064  INFO TomcatWebServer:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-27 10:35:37,434  INFO DemoApplication:61 - Started DemoApplication in 7.945 seconds (JVM running for 8.781)
+2019-12-27 10:37:00,726  INFO Version:21 - HV000001: Hibernate Validator 6.0.18.Final
+2019-12-27 10:37:01,767  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f96d2d8c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:37:02,279  INFO DemoApplication:655 - The following profiles are active: dev
+2019-12-27 10:37:02,743  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-27 10:37:02,789  INFO RepositoryConfigurationDelegate:184 - Finished Spring Data repository scanning in 39ms. Found 1 repository interfaces.
+2019-12-27 10:37:02,790  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-27 10:37:02,794  INFO RepositoryConfigurationDelegate:184 - Finished Spring Data repository scanning in 4ms. Found 1 repository interfaces.
+2019-12-27 10:37:03,044  INFO GenericScope:295 - BeanFactory id=731806f0-0a81-3b7a-8aa7-b288d5d5e15a
+2019-12-27 10:37:03,141  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:37:03,204  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f96d2d8c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:37:03,375  INFO TomcatWebServer:92 - Tomcat initialized with port(s): 8080 (http)
+2019-12-27 10:37:04,549  INFO ContextLoader:284 - Root WebApplicationContext: initialization completed in 2260 ms
+2019-12-27 10:37:04,721  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: primaryPersistenceUnit]
+2019-12-27 10:37:04,777  INFO Version:46 - HHH000412: Hibernate Core {5.4.8.Final}
+2019-12-27 10:37:04,872  INFO Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-12-27 10:37:04,955  INFO HikariDataSource:110 - HikariPool-1 - Starting...
+2019-12-27 10:37:05,047  INFO HikariDataSource:123 - HikariPool-1 - Start completed.
+2019-12-27 10:37:05,057  INFO Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-12-27 10:37:05,629  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-12-27 10:37:05,635  INFO LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'primaryPersistenceUnit'
+2019-12-27 10:37:05,672  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: secondaryPersistenceUnit]
+2019-12-27 10:37:05,675  INFO HikariDataSource:110 - HikariPool-2 - Starting...
+2019-12-27 10:37:05,678  INFO HikariDataSource:123 - HikariPool-2 - Start completed.
+2019-12-27 10:37:05,679  INFO Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-12-27 10:37:05,772  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-12-27 10:37:05,772  INFO LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'secondaryPersistenceUnit'
+2019-12-27 10:37:06,023  WARN JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-27 10:37:06,462  INFO ThreadPoolTaskScheduler:171 - Initializing ExecutorService 'taskExecutor'
+2019-12-27 10:37:06,493  INFO PropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2019-12-27 10:37:06,514  WARN ArchaiusAutoConfiguration:120 - No spring.application.name found, defaulting to 'application'
+2019-12-27 10:37:06,516  WARN URLConfigurationSource:121 - No URLs will be polled as dynamic configuration sources.
+2019-12-27 10:37:06,516  INFO URLConfigurationSource:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-27 10:37:06,519  WARN URLConfigurationSource:121 - No URLs will be polled as dynamic configuration sources.
+2019-12-27 10:37:06,520  INFO URLConfigurationSource:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-27 10:37:06,635  INFO WelcomePageHandlerMapping:58 - Adding welcome page template: index
+2019-12-27 10:37:07,532  INFO DocumentationPluginsBootstrapper:160 - Context refreshed
+2019-12-27 10:37:07,545  INFO DocumentationPluginsBootstrapper:163 - Found 1 custom documentation plugin(s)
+2019-12-27 10:37:07,574  INFO ApiListingReferenceScanner:41 - Scanning for api listing references
+2019-12-27 10:37:07,715  INFO CachingConnectionFactory:524 - Attempting to connect to: [localhost:5672]
+2019-12-27 10:37:07,745  INFO CachingConnectionFactory:497 - Created new connection: rabbitConnectionFactory#141aba65:0/SimpleConnection@3ca3eba2 [delegate=amqp://chuck@127.0.0.1:5672/, localPort= 5372]
+2019-12-27 10:37:07,806  INFO TomcatWebServer:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-27 10:37:08,193  INFO DemoApplication:61 - Started DemoApplication in 7.56 seconds (JVM running for 8.427)
+2019-12-27 10:38:59,095  INFO Version:21 - HV000001: Hibernate Validator 6.0.18.Final
+2019-12-27 10:39:00,118  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$54a6b96e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:39:00,626  INFO DemoApplication:655 - The following profiles are active: dev
+2019-12-27 10:39:01,093  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-27 10:39:01,140  INFO RepositoryConfigurationDelegate:184 - Finished Spring Data repository scanning in 39ms. Found 1 repository interfaces.
+2019-12-27 10:39:01,140  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-27 10:39:01,145  INFO RepositoryConfigurationDelegate:184 - Finished Spring Data repository scanning in 4ms. Found 1 repository interfaces.
+2019-12-27 10:39:01,395  INFO GenericScope:295 - BeanFactory id=731806f0-0a81-3b7a-8aa7-b288d5d5e15a
+2019-12-27 10:39:01,492  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:39:01,556  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$54a6b96e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:39:01,730  INFO TomcatWebServer:92 - Tomcat initialized with port(s): 8080 (http)
+2019-12-27 10:39:02,920  INFO ContextLoader:284 - Root WebApplicationContext: initialization completed in 2284 ms
+2019-12-27 10:39:03,089  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: primaryPersistenceUnit]
+2019-12-27 10:39:03,146  INFO Version:46 - HHH000412: Hibernate Core {5.4.8.Final}
+2019-12-27 10:39:03,242  INFO Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-12-27 10:39:03,324  INFO HikariDataSource:110 - HikariPool-1 - Starting...
+2019-12-27 10:39:03,416  INFO HikariDataSource:123 - HikariPool-1 - Start completed.
+2019-12-27 10:39:03,425  INFO Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-12-27 10:39:03,986  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-12-27 10:39:04,292  INFO LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'primaryPersistenceUnit'
+2019-12-27 10:39:04,329  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: secondaryPersistenceUnit]
+2019-12-27 10:39:04,332  INFO HikariDataSource:110 - HikariPool-2 - Starting...
+2019-12-27 10:39:04,336  INFO HikariDataSource:123 - HikariPool-2 - Start completed.
+2019-12-27 10:39:04,336  INFO Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-12-27 10:39:04,408  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-12-27 10:39:04,409  INFO LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'secondaryPersistenceUnit'
+2019-12-27 10:39:04,667  WARN JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-27 10:39:05,125  INFO ThreadPoolTaskScheduler:171 - Initializing ExecutorService 'taskExecutor'
+2019-12-27 10:39:05,176  INFO PropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2019-12-27 10:39:05,198  WARN ArchaiusAutoConfiguration:120 - No spring.application.name found, defaulting to 'application'
+2019-12-27 10:39:05,200  WARN URLConfigurationSource:121 - No URLs will be polled as dynamic configuration sources.
+2019-12-27 10:39:05,200  INFO URLConfigurationSource:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-27 10:39:05,203  WARN URLConfigurationSource:121 - No URLs will be polled as dynamic configuration sources.
+2019-12-27 10:39:05,203  INFO URLConfigurationSource:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-27 10:39:05,307  INFO WelcomePageHandlerMapping:58 - Adding welcome page template: index
+2019-12-27 10:39:06,191  INFO DocumentationPluginsBootstrapper:160 - Context refreshed
+2019-12-27 10:39:06,204  INFO DocumentationPluginsBootstrapper:163 - Found 1 custom documentation plugin(s)
+2019-12-27 10:39:06,230  INFO ApiListingReferenceScanner:41 - Scanning for api listing references
+2019-12-27 10:39:06,373  INFO CachingConnectionFactory:524 - Attempting to connect to: [localhost:5672]
+2019-12-27 10:39:06,402  INFO CachingConnectionFactory:497 - Created new connection: rabbitConnectionFactory#21a6a494:0/SimpleConnection@6516181f [delegate=amqp://chuck@127.0.0.1:5672/, localPort= 5438]
+2019-12-27 10:39:06,464  INFO TomcatWebServer:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-27 10:39:06,853  INFO DemoApplication:61 - Started DemoApplication in 7.849 seconds (JVM running for 8.68)
+2019-12-27 10:39:28,641  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2019-12-27 10:39:28,646  INFO DispatcherServlet:547 - Completed initialization in 5 ms
+2019-12-27 10:39:28,686  WARN DefaultHandlerExceptionResolver:199 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'sid': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'sid': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (PushbackInputStream); line: 1, column: 5]]
+2019-12-27 10:42:17,542  INFO Version:21 - HV000001: Hibernate Validator 6.0.18.Final
+2019-12-27 10:42:18,608  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$29810787] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:42:19,123  INFO DemoApplication:655 - The following profiles are active: dev
+2019-12-27 10:42:19,581  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-27 10:42:19,627  INFO RepositoryConfigurationDelegate:184 - Finished Spring Data repository scanning in 40ms. Found 1 repository interfaces.
+2019-12-27 10:42:19,628  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-27 10:42:19,633  INFO RepositoryConfigurationDelegate:184 - Finished Spring Data repository scanning in 4ms. Found 1 repository interfaces.
+2019-12-27 10:42:19,885  INFO GenericScope:295 - BeanFactory id=731806f0-0a81-3b7a-8aa7-b288d5d5e15a
+2019-12-27 10:42:19,981  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:42:20,046  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$29810787] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:42:20,218  INFO TomcatWebServer:92 - Tomcat initialized with port(s): 8080 (http)
+2019-12-27 10:42:21,410  INFO ContextLoader:284 - Root WebApplicationContext: initialization completed in 2278 ms
+2019-12-27 10:42:21,608  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: primaryPersistenceUnit]
+2019-12-27 10:42:21,665  INFO Version:46 - HHH000412: Hibernate Core {5.4.8.Final}
+2019-12-27 10:42:21,761  INFO Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-12-27 10:42:21,840  INFO HikariDataSource:110 - HikariPool-1 - Starting...
+2019-12-27 10:42:21,939  INFO HikariDataSource:123 - HikariPool-1 - Start completed.
+2019-12-27 10:42:21,950  INFO Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-12-27 10:42:22,487  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-12-27 10:42:22,493  INFO LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'primaryPersistenceUnit'
+2019-12-27 10:42:22,530  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: secondaryPersistenceUnit]
+2019-12-27 10:42:22,533  INFO HikariDataSource:110 - HikariPool-2 - Starting...
+2019-12-27 10:42:22,536  INFO HikariDataSource:123 - HikariPool-2 - Start completed.
+2019-12-27 10:42:22,537  INFO Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-12-27 10:42:22,632  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-12-27 10:42:22,632  INFO LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'secondaryPersistenceUnit'
+2019-12-27 10:42:22,896  WARN JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-27 10:42:23,349  INFO ThreadPoolTaskScheduler:171 - Initializing ExecutorService 'taskExecutor'
+2019-12-27 10:42:23,395  INFO PropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2019-12-27 10:42:23,411  WARN ArchaiusAutoConfiguration:120 - No spring.application.name found, defaulting to 'application'
+2019-12-27 10:42:23,427  WARN URLConfigurationSource:121 - No URLs will be polled as dynamic configuration sources.
+2019-12-27 10:42:23,427  INFO URLConfigurationSource:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-27 10:42:23,427  WARN URLConfigurationSource:121 - No URLs will be polled as dynamic configuration sources.
+2019-12-27 10:42:23,427  INFO URLConfigurationSource:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-27 10:42:23,520  INFO WelcomePageHandlerMapping:58 - Adding welcome page template: index
+2019-12-27 10:42:24,399  INFO DocumentationPluginsBootstrapper:160 - Context refreshed
+2019-12-27 10:42:24,415  INFO DocumentationPluginsBootstrapper:163 - Found 1 custom documentation plugin(s)
+2019-12-27 10:42:24,446  INFO ApiListingReferenceScanner:41 - Scanning for api listing references
+2019-12-27 10:42:24,571  INFO CachingConnectionFactory:524 - Attempting to connect to: [localhost:5672]
+2019-12-27 10:42:24,602  INFO CachingConnectionFactory:497 - Created new connection: rabbitConnectionFactory#7b44bfb8:0/SimpleConnection@2ff8d39b [delegate=amqp://chuck@127.0.0.1:5672/, localPort= 5529]
+2019-12-27 10:42:24,665  INFO TomcatWebServer:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-27 10:42:25,055  INFO DemoApplication:61 - Started DemoApplication in 7.616 seconds (JVM running for 8.492)
+2019-12-27 10:42:30,036  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2019-12-27 10:42:30,051  INFO DispatcherServlet:547 - Completed initialization in 15 ms
+2019-12-27 10:42:30,098  WARN DefaultHandlerExceptionResolver:199 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'sid': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'sid': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (PushbackInputStream); line: 1, column: 5]]
+2019-12-27 10:42:50,744  INFO Version:21 - HV000001: Hibernate Validator 6.0.18.Final
+2019-12-27 10:42:51,962  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8f974036] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:42:52,454  INFO DemoApplication:655 - The following profiles are active: dev
+2019-12-27 10:42:52,965  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-27 10:42:53,015  INFO RepositoryConfigurationDelegate:184 - Finished Spring Data repository scanning in 42ms. Found 1 repository interfaces.
+2019-12-27 10:42:53,016  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-27 10:42:53,021  INFO RepositoryConfigurationDelegate:184 - Finished Spring Data repository scanning in 4ms. Found 1 repository interfaces.
+2019-12-27 10:42:53,271  INFO GenericScope:295 - BeanFactory id=731806f0-0a81-3b7a-8aa7-b288d5d5e15a
+2019-12-27 10:42:53,365  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:42:53,427  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8f974036] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:42:53,606  INFO TomcatWebServer:92 - Tomcat initialized with port(s): 8080 (http)
+2019-12-27 10:42:54,761  INFO ContextLoader:284 - Root WebApplicationContext: initialization completed in 2291 ms
+2019-12-27 10:42:54,945  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: primaryPersistenceUnit]
+2019-12-27 10:42:55,006  INFO Version:46 - HHH000412: Hibernate Core {5.4.8.Final}
+2019-12-27 10:42:55,110  INFO Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-12-27 10:42:55,199  INFO HikariDataSource:110 - HikariPool-1 - Starting...
+2019-12-27 10:42:55,277  INFO HikariDataSource:123 - HikariPool-1 - Start completed.
+2019-12-27 10:42:55,292  INFO Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-12-27 10:42:55,866  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-12-27 10:42:55,872  INFO LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'primaryPersistenceUnit'
+2019-12-27 10:42:55,908  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: secondaryPersistenceUnit]
+2019-12-27 10:42:55,912  INFO HikariDataSource:110 - HikariPool-2 - Starting...
+2019-12-27 10:42:55,915  INFO HikariDataSource:123 - HikariPool-2 - Start completed.
+2019-12-27 10:42:55,915  INFO Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-12-27 10:42:56,003  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-12-27 10:42:56,003  INFO LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'secondaryPersistenceUnit'
+2019-12-27 10:42:56,255  WARN JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-27 10:42:56,696  INFO ThreadPoolTaskScheduler:171 - Initializing ExecutorService 'taskExecutor'
+2019-12-27 10:42:56,727  INFO PropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2019-12-27 10:42:56,750  WARN ArchaiusAutoConfiguration:120 - No spring.application.name found, defaulting to 'application'
+2019-12-27 10:42:56,752  WARN URLConfigurationSource:121 - No URLs will be polled as dynamic configuration sources.
+2019-12-27 10:42:56,752  INFO URLConfigurationSource:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-27 10:42:56,755  WARN URLConfigurationSource:121 - No URLs will be polled as dynamic configuration sources.
+2019-12-27 10:42:56,755  INFO URLConfigurationSource:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-27 10:42:56,866  INFO WelcomePageHandlerMapping:58 - Adding welcome page template: index
+2019-12-27 10:42:57,728  INFO DocumentationPluginsBootstrapper:160 - Context refreshed
+2019-12-27 10:42:57,741  INFO DocumentationPluginsBootstrapper:163 - Found 1 custom documentation plugin(s)
+2019-12-27 10:42:57,768  INFO ApiListingReferenceScanner:41 - Scanning for api listing references
+2019-12-27 10:42:57,908  INFO CachingConnectionFactory:524 - Attempting to connect to: [localhost:5672]
+2019-12-27 10:42:57,937  INFO CachingConnectionFactory:497 - Created new connection: rabbitConnectionFactory#3ba3f40d:0/SimpleConnection@6032622 [delegate=amqp://chuck@127.0.0.1:5672/, localPort= 5576]
+2019-12-27 10:42:57,998  INFO TomcatWebServer:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-27 10:42:58,377  INFO DemoApplication:61 - Started DemoApplication in 7.721 seconds (JVM running for 8.604)
+2019-12-27 10:45:08,338  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2019-12-27 10:45:08,343  INFO DispatcherServlet:547 - Completed initialization in 5 ms
+2019-12-27 10:45:08,393  WARN DefaultHandlerExceptionResolver:199 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot construct instance of `com.example.demo.common.entity.Student` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('sid'); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot construct instance of `com.example.demo.common.entity.Student` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('sid')
+ at [Source: (PushbackInputStream); line: 1, column: 1]]
+2019-12-27 10:45:45,267  WARN DefaultHandlerExceptionResolver:199 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'sid': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'sid': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (PushbackInputStream); line: 1, column: 5]]
+2019-12-27 10:45:49,364  WARN DefaultHandlerExceptionResolver:199 - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+2019-12-27 10:45:58,956  WARN DefaultHandlerExceptionResolver:199 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'sid': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'sid': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (PushbackInputStream); line: 1, column: 5]]
+2019-12-27 10:46:07,259  WARN DefaultHandlerExceptionResolver:199 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'sid': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'sid': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (PushbackInputStream); line: 1, column: 5]]
+2019-12-27 10:46:48,983  WARN DefaultHandlerExceptionResolver:199 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('s' (code 115)): was expecting double-quote to start field name; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('s' (code 115)): was expecting double-quote to start field name
+ at [Source: (PushbackInputStream); line: 2, column: 4]]
+2019-12-27 10:47:18,388  WARN DefaultHandlerExceptionResolver:199 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries
+ at [Source: (PushbackInputStream); line: 3, column: 4]]
+2019-12-27 10:47:59,954  WARN DefaultHandlerExceptionResolver:199 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries
+ at [Source: (PushbackInputStream); line: 3, column: 4]]
+2019-12-27 10:48:21,567  WARN DefaultHandlerExceptionResolver:199 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries
+ at [Source: (PushbackInputStream); line: 3, column: 4]]
+2019-12-27 10:48:23,380  WARN DefaultHandlerExceptionResolver:199 - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries
+ at [Source: (PushbackInputStream); line: 3, column: 4]]
+2019-12-27 10:49:02,245  INFO RESTfulController:57 - =====<Post student Student(sid=1, name=chuck, age=1, score=100, classid=1)>=====
+2019-12-27 10:49:26,981  INFO Version:21 - HV000001: Hibernate Validator 6.0.18.Final
+2019-12-27 10:49:28,043  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1e679032] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:49:28,558  INFO DemoApplication:655 - The following profiles are active: dev
+2019-12-27 10:49:29,011  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-27 10:49:29,058  INFO RepositoryConfigurationDelegate:184 - Finished Spring Data repository scanning in 39ms. Found 1 repository interfaces.
+2019-12-27 10:49:29,058  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-27 10:49:29,058  INFO RepositoryConfigurationDelegate:184 - Finished Spring Data repository scanning in 4ms. Found 1 repository interfaces.
+2019-12-27 10:49:29,308  INFO GenericScope:295 - BeanFactory id=731806f0-0a81-3b7a-8aa7-b288d5d5e15a
+2019-12-27 10:49:29,417  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:49:29,480  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1e679032] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:49:29,652  INFO TomcatWebServer:92 - Tomcat initialized with port(s): 8080 (http)
+2019-12-27 10:49:30,825  INFO ContextLoader:284 - Root WebApplicationContext: initialization completed in 2267 ms
+2019-12-27 10:49:30,997  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: primaryPersistenceUnit]
+2019-12-27 10:49:31,059  INFO Version:46 - HHH000412: Hibernate Core {5.4.8.Final}
+2019-12-27 10:49:31,153  INFO Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-12-27 10:49:31,247  INFO HikariDataSource:110 - HikariPool-1 - Starting...
+2019-12-27 10:49:31,340  INFO HikariDataSource:123 - HikariPool-1 - Start completed.
+2019-12-27 10:49:31,340  INFO Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-12-27 10:49:31,903  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-12-27 10:49:31,918  INFO LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'primaryPersistenceUnit'
+2019-12-27 10:49:31,950  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: secondaryPersistenceUnit]
+2019-12-27 10:49:31,950  INFO HikariDataSource:110 - HikariPool-2 - Starting...
+2019-12-27 10:49:31,950  INFO HikariDataSource:123 - HikariPool-2 - Start completed.
+2019-12-27 10:49:31,950  INFO Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-12-27 10:49:32,059  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-12-27 10:49:32,059  INFO LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'secondaryPersistenceUnit'
+2019-12-27 10:49:32,325  WARN JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-27 10:49:32,792  INFO ThreadPoolTaskScheduler:171 - Initializing ExecutorService 'taskExecutor'
+2019-12-27 10:49:32,823  INFO PropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2019-12-27 10:49:32,839  WARN ArchaiusAutoConfiguration:120 - No spring.application.name found, defaulting to 'application'
+2019-12-27 10:49:32,854  WARN URLConfigurationSource:121 - No URLs will be polled as dynamic configuration sources.
+2019-12-27 10:49:32,854  INFO URLConfigurationSource:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-27 10:49:32,854  WARN URLConfigurationSource:121 - No URLs will be polled as dynamic configuration sources.
+2019-12-27 10:49:32,854  INFO URLConfigurationSource:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-27 10:49:32,948  INFO WelcomePageHandlerMapping:58 - Adding welcome page template: index
+2019-12-27 10:49:33,810  INFO DocumentationPluginsBootstrapper:160 - Context refreshed
+2019-12-27 10:49:33,826  INFO DocumentationPluginsBootstrapper:163 - Found 1 custom documentation plugin(s)
+2019-12-27 10:49:33,857  INFO ApiListingReferenceScanner:41 - Scanning for api listing references
+2019-12-27 10:49:33,982  INFO CachingConnectionFactory:524 - Attempting to connect to: [localhost:5672]
+2019-12-27 10:49:34,013  INFO CachingConnectionFactory:497 - Created new connection: rabbitConnectionFactory#75527e36:0/SimpleConnection@1700d089 [delegate=amqp://chuck@127.0.0.1:5672/, localPort= 5801]
+2019-12-27 10:49:34,076  INFO TomcatWebServer:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-27 10:49:34,466  INFO DemoApplication:61 - Started DemoApplication in 7.573 seconds (JVM running for 8.39)
+2019-12-27 10:49:54,163  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2019-12-27 10:49:54,169  INFO DispatcherServlet:547 - Completed initialization in 6 ms
+2019-12-27 10:49:54,196  INFO RESTfulController:57 - =====<Post student Student(sid=null, name=null, age=null, score=null, classid=null)>=====
+2019-12-27 10:50:24,809  INFO RESTfulController:68 - =====<Put student Student(sid=null, name=null, age=null, score=null, classid=null)>=====
+2019-12-27 10:50:35,118  INFO Version:21 - HV000001: Hibernate Validator 6.0.18.Final
+2019-12-27 10:50:36,150  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$37cbfc73] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:50:36,744  INFO DemoApplication:655 - The following profiles are active: dev
+2019-12-27 10:50:37,260  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-27 10:50:37,306  INFO RepositoryConfigurationDelegate:184 - Finished Spring Data repository scanning in 42ms. Found 1 repository interfaces.
+2019-12-27 10:50:37,322  INFO RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-12-27 10:50:37,322  INFO RepositoryConfigurationDelegate:184 - Finished Spring Data repository scanning in 4ms. Found 1 repository interfaces.
+2019-12-27 10:50:37,589  INFO GenericScope:295 - BeanFactory id=731806f0-0a81-3b7a-8aa7-b288d5d5e15a
+2019-12-27 10:50:37,698  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:50:37,792  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$37cbfc73] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-12-27 10:50:37,979  INFO TomcatWebServer:92 - Tomcat initialized with port(s): 8080 (http)
+2019-12-27 10:50:39,155  INFO ContextLoader:284 - Root WebApplicationContext: initialization completed in 2395 ms
+2019-12-27 10:50:39,342  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: primaryPersistenceUnit]
+2019-12-27 10:50:39,402  INFO Version:46 - HHH000412: Hibernate Core {5.4.8.Final}
+2019-12-27 10:50:39,495  INFO Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-12-27 10:50:39,589  INFO HikariDataSource:110 - HikariPool-1 - Starting...
+2019-12-27 10:50:39,683  INFO HikariDataSource:123 - HikariPool-1 - Start completed.
+2019-12-27 10:50:39,699  INFO Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-12-27 10:50:40,261  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-12-27 10:50:40,276  INFO LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'primaryPersistenceUnit'
+2019-12-27 10:50:40,308  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: secondaryPersistenceUnit]
+2019-12-27 10:50:40,308  INFO HikariDataSource:110 - HikariPool-2 - Starting...
+2019-12-27 10:50:40,308  INFO HikariDataSource:123 - HikariPool-2 - Start completed.
+2019-12-27 10:50:40,308  INFO Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2019-12-27 10:50:40,401  INFO JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2019-12-27 10:50:40,401  INFO LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'secondaryPersistenceUnit'
+2019-12-27 10:50:40,667  WARN JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-12-27 10:50:41,167  INFO ThreadPoolTaskScheduler:171 - Initializing ExecutorService 'taskExecutor'
+2019-12-27 10:50:41,214  INFO PropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2019-12-27 10:50:41,245  WARN ArchaiusAutoConfiguration:120 - No spring.application.name found, defaulting to 'application'
+2019-12-27 10:50:41,245  WARN URLConfigurationSource:121 - No URLs will be polled as dynamic configuration sources.
+2019-12-27 10:50:41,245  INFO URLConfigurationSource:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-27 10:50:41,245  WARN URLConfigurationSource:121 - No URLs will be polled as dynamic configuration sources.
+2019-12-27 10:50:41,245  INFO URLConfigurationSource:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-12-27 10:50:41,354  INFO WelcomePageHandlerMapping:58 - Adding welcome page template: index
+2019-12-27 10:50:42,248  INFO DocumentationPluginsBootstrapper:160 - Context refreshed
+2019-12-27 10:50:42,264  INFO DocumentationPluginsBootstrapper:163 - Found 1 custom documentation plugin(s)
+2019-12-27 10:50:42,295  INFO ApiListingReferenceScanner:41 - Scanning for api listing references
+2019-12-27 10:50:42,464  INFO CachingConnectionFactory:524 - Attempting to connect to: [localhost:5672]
+2019-12-27 10:50:42,496  INFO CachingConnectionFactory:497 - Created new connection: rabbitConnectionFactory#1b47b7f5:0/SimpleConnection@ba87c11 [delegate=amqp://chuck@127.0.0.1:5672/, localPort= 5886]
+2019-12-27 10:50:42,558  INFO TomcatWebServer:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-27 10:50:42,967  INFO DemoApplication:61 - Started DemoApplication in 7.935 seconds (JVM running for 8.748)
+2019-12-27 10:51:01,760  INFO DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2019-12-27 10:51:01,766  INFO DispatcherServlet:547 - Completed initialization in 6 ms
+2019-12-27 10:51:01,820  INFO RESTfulController:68 - =====<Put student Student(sid=1, name=chuck, age=1, score=100, classid=1)>=====
+2019-12-27 10:52:35,552  INFO RESTfulController:79 - =====<Delete student with id: 1>=====

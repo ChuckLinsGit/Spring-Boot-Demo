@@ -1,0 +1,59 @@
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.demo.mybatis.DAO.IStudentDAO">
+
+	<select id="getStudentByConditionsWithIf"  resultType="Student" >
+		SELECT * FROM STUDENT 
+		WHERE 
+		<if test=" null!=id and id!='' ">
+			SID=#{id} 
+		</if>
+		<if test=" null!=score and score!=''">
+			AND SCORE>#{score}
+		</if>
+		
+	</select>
+
+	<select id="getStudentByConditionsWithWhere"  resultType="Student">
+		SELECT * FROM STUDENT 
+		<where>
+			<if test=" null!=id and id!=''">
+				AND SSID=#{id}
+			</if>
+			<if test=" null!=score and score!=''">
+				AND SCORE > #{score} 
+			</if>
+		</where> 
+	</select>
+
+	<select id="getStudentByConditionsWithForeach"  resultType="Student">
+		SELECT * FROM STUDENT 
+		WHERE
+		SID IN 
+		<if test="list.size>0">
+			<foreach collection="list" item="stu" open="(" close=")" separator=",">
+					#{stu.id}
+			</foreach>
+		</if>
+	</select>
+
+	<select id="getStudentByConditionsWithChoose" parameterType="Student" resultType="Student">
+		SELECT * FROM STUDENT 
+		<where>
+			<choose>
+				<when test=" null!=score">
+					AND SCORE > #{score} 
+				</when>
+				<when test="id==14">
+					AND SID=#{id} 
+				</when>
+				<otherwise>
+					1>2
+				</otherwise>
+			</choose>
+		</where> 
+	</select>
+	
+</mapper>

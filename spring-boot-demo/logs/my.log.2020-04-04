@@ -1,0 +1,48 @@
+2020-04-04 09:37:36,210  INFO DemoApplication:655 ---- The following profiles are active: dev
+2020-04-04 09:37:46,536  INFO DemoApplication:61 ---- Started DemoApplication in 12.462 seconds (JVM running for 13.854)
+2020-04-04 09:53:36,038  INFO DemoApplication:655 ---- The following profiles are active: dev
+2020-04-04 09:53:42,281  INFO DemoApplication:61 ---- Started DemoApplication in 8.508 seconds (JVM running for 9.422)
+2020-04-04 10:12:18,934  INFO DemoApplication:655 ---- The following profiles are active: dev
+2020-04-04 10:12:24,861  INFO DemoApplication:61 ---- Started DemoApplication in 7.637 seconds (JVM running for 8.524)
+2020-04-04 10:14:15,146  INFO DemoApplication:655 ---- The following profiles are active: dev
+2020-04-04 10:14:21,391  INFO DemoApplication:61 ---- Started DemoApplication in 8.038 seconds (JVM running for 8.899)
+2020-04-04 10:25:59,654  INFO DemoApplication:655 ---- The following profiles are active: dev
+2020-04-04 10:26:06,053  INFO DemoApplication:61 ---- Started DemoApplication in 8.122 seconds (JVM running for 8.955)
+2020-04-04 10:27:19,394  INFO DemoApplication:655 ---- The following profiles are active: dev
+2020-04-04 10:30:06,311  INFO DemoApplication:655 ---- The following profiles are active: dev
+2020-04-04 10:30:12,896  INFO DemoApplication:61 ---- Started DemoApplication in 8.383 seconds (JVM running for 9.223)
+2020-04-04 11:12:58,629  INFO DemoApplication:655 ---- The following profiles are active: dev
+2020-04-04 11:13:04,813  INFO DemoApplication:61 ---- Started DemoApplication in 8.011 seconds (JVM running for 9.039)
+2020-04-04 11:24:41,544  INFO DemoApplication:655 ---- The following profiles are active: dev
+2020-04-04 11:24:47,990  INFO DemoApplication:61 ---- Started DemoApplication in 8.568 seconds (JVM running for 9.577)
+2020-04-04 11:26:03,638  INFO DemoApplication:655 ---- The following profiles are active: dev
+2020-04-04 11:26:09,655  INFO DemoApplication:61 ---- Started DemoApplication in 7.715 seconds (JVM running for 8.553)
+2020-04-04 11:45:41,896  INFO DemoApplication:655 ---- The following profiles are active: dev
+2020-04-04 11:45:48,284  INFO DemoApplication:61 ---- Started DemoApplication in 8.51 seconds (JVM running for 9.688)
+2020-04-04 14:53:16,807  INFO DemoApplication:655 ---- The following profiles are active: dev
+2020-04-04 14:53:22,860  INFO DemoApplication:61 ---- Started DemoApplication in 7.728 seconds (JVM running for 8.597)
+2020-04-04 15:03:59,583  INFO DemoApplication:655 ---- The following profiles are active: dev
+2020-04-04 15:04:05,504  INFO DemoApplication:61 ---- Started DemoApplication in 7.608 seconds (JVM running for 8.491)
+2020-04-04 15:07:09,497  INFO DemoApplication:655 ---- The following profiles are active: dev
+2020-04-04 15:07:15,521  INFO DemoApplication:61 ---- Started DemoApplication in 7.808 seconds (JVM running for 8.638)
+2020-04-04 15:17:08,472  INFO AspectExample:32 ---- URL : http://localhost:8080/
+2020-04-04 15:17:08,472  INFO AspectExample:33 ---- HTTP_METHOD : GET
+2020-04-04 15:17:08,473  INFO AspectExample:34 ---- IP : 0:0:0:0:0:0:0:1
+2020-04-04 15:17:08,478  INFO AspectExample:35 ---- CLASS_METHOD : com.example.demo.common.controller.HelloController.index
+2020-04-04 15:17:08,479  INFO AspectExample:36 ---- ARGS : []
+2020-04-04 15:17:08,484  INFO AspectExample:43 ---- RESPONSE : index
+2020-04-04 15:17:11,633  INFO AspectExample:32 ---- URL : http://localhost:8080/hello
+2020-04-04 15:17:11,633  INFO AspectExample:33 ---- HTTP_METHOD : GET
+2020-04-04 15:17:11,634  INFO AspectExample:34 ---- IP : 0:0:0:0:0:0:0:1
+2020-04-04 15:17:11,634  INFO AspectExample:35 ---- CLASS_METHOD : com.example.demo.common.controller.HelloController.hello
+2020-04-04 15:17:11,634  INFO AspectExample:36 ---- ARGS : []
+2020-04-04 15:17:11,635  INFO AspectExample:43 ---- RESPONSE : hello.html
+2020-04-04 15:18:55,961  INFO RESTfulController:28 ---- =====<Get student with id: 1>=====
+2020-04-04 15:28:07,530  INFO RESTfulController:28 ---- =====<Get student with id: 1>=====
+2020-04-04 15:29:05,271  INFO RESTfulController:59 ---- =====<Post student Student(sid=null, name=chuck, age=null, score=null, classid=null)>=====
+2020-04-04 15:29:48,724  INFO DemoApplication:655 ---- The following profiles are active: dev
+2020-04-04 15:29:54,788  INFO DemoApplication:61 ---- Started DemoApplication in 7.876 seconds (JVM running for 8.747)
+2020-04-04 15:29:58,421  INFO RESTfulController:60 ---- =====<Post student Student(sid=null, name=chuck, age=null, score=null, classid=null)>=====
+2020-04-04 15:32:37,170  INFO DemoApplication:655 ---- The following profiles are active: dev
+2020-04-04 15:32:43,243  INFO DemoApplication:61 ---- Started DemoApplication in 7.788 seconds (JVM running for 8.644)
+2020-04-04 15:32:50,838  INFO RESTfulController:60 ---- =====<Post student Student(sid=null, name=chuck, age=null, score=null, classid=null)>=====

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+</body>
+<script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>
+<script src="js/axios.min.js"></script>
+<script type="text/javascript">
+    function f() {
+        axios({
+            method:'POST',
+            url:'http://localhost:8080/restful/user/1',
+            data:{
+                name: 'chuck'
+            },
+            headers: {
+                'content-type': 'application/json;charset=utf-8'
+            }
+        }).then((response)=>{
+            console.log(response.data);
+        }).catch(function (error) {
+            console.log(error);
+        });
+    }
+    f();
+</script>
+</html>

@@ -1,0 +1,55 @@
+2019-12-04 09:56:37,287  INFO DemoApplication:655 ---- The following profiles are active: dev
+2019-12-04 09:57:41,164  INFO DemoApplication:655 ---- The following profiles are active: dev
+2019-12-04 09:57:50,383  INFO DemoApplication:61 ---- Started DemoApplication in 12.705 seconds (JVM running for 13.52)
+2019-12-04 10:01:47,556  INFO DemoApplication:655 ---- The following profiles are active: dev
+2019-12-04 10:01:55,901  INFO DemoApplication:61 ---- Started DemoApplication in 11.886 seconds (JVM running for 12.678)
+2019-12-04 10:03:59,370  INFO DemoApplicationTests:655 ---- The following profiles are active: dev
+2019-12-04 10:04:08,332  INFO DemoApplicationTests:61 ---- Started DemoApplicationTests in 12.666 seconds (JVM running for 13.727)
+2019-12-04 10:05:20,603  INFO DemoApplicationTests:655 ---- The following profiles are active: dev
+2019-12-04 10:05:29,152  INFO DemoApplicationTests:61 ---- Started DemoApplicationTests in 12.228 seconds (JVM running for 13.112)
+2019-12-04 10:07:44,589  INFO DemoApplicationTests:655 ---- The following profiles are active: dev
+2019-12-04 10:07:52,823  INFO DemoApplicationTests:61 ---- Started DemoApplicationTests in 11.888 seconds (JVM running for 12.743)
+2019-12-04 10:09:20,463  INFO DemoApplicationTests:655 ---- The following profiles are active: dev
+2019-12-04 10:09:29,342  INFO DemoApplicationTests:61 ---- Started DemoApplicationTests in 12.664 seconds (JVM running for 13.659)
+2019-12-04 10:09:53,542  INFO DemoApplicationTests:655 ---- The following profiles are active: dev
+2019-12-04 10:10:02,244  INFO DemoApplicationTests:61 ---- Started DemoApplicationTests in 12.47 seconds (JVM running for 13.363)
+2019-12-04 10:10:57,011  INFO DemoApplicationTests:655 ---- The following profiles are active: dev
+2019-12-04 10:11:05,823  INFO DemoApplicationTests:61 ---- Started DemoApplicationTests in 12.602 seconds (JVM running for 13.501)
+2019-12-04 10:11:35,417  INFO DemoApplicationTests:655 ---- The following profiles are active: dev
+2019-12-04 10:11:43,463  INFO DemoApplicationTests:61 ---- Started DemoApplicationTests in 11.88 seconds (JVM running for 12.808)
+2019-12-04 10:14:09,760  INFO DemoApplicationTests:655 ---- The following profiles are active: dev
+2019-12-04 10:14:18,440  INFO DemoApplicationTests:61 ---- Started DemoApplicationTests in 12.389 seconds (JVM running for 13.272)
+2019-12-04 10:15:44,728  INFO DemoApplicationTests:655 ---- The following profiles are active: dev
+2019-12-04 10:15:53,275  INFO DemoApplicationTests:61 ---- Started DemoApplicationTests in 12.289 seconds (JVM running for 13.165)
+2019-12-04 10:18:48,568  INFO DemoApplicationTests:655 ---- The following profiles are active: dev
+2019-12-04 10:18:57,084  INFO DemoApplicationTests:61 ---- Started DemoApplicationTests in 12.294 seconds (JVM running for 13.307)
+2019-12-04 10:20:00,223  INFO DemoApplicationTests:655 ---- The following profiles are active: dev
+2019-12-04 10:20:08,546  INFO DemoApplicationTests:61 ---- Started DemoApplicationTests in 12.013 seconds (JVM running for 12.873)
+2019-12-04 10:20:55,198  INFO DemoApplicationTests:655 ---- The following profiles are active: dev
+2019-12-04 10:21:04,417  INFO DemoApplicationTests:61 ---- Started DemoApplicationTests in 13.153 seconds (JVM running for 14.098)
+2019-12-04 10:34:53,052  INFO DemoApplicationTests:655 ---- The following profiles are active: dev
+2019-12-04 10:35:01,644  INFO DemoApplicationTests:61 ---- Started DemoApplicationTests in 12.244 seconds (JVM running for 13.072)
+2019-12-04 10:37:33,900  INFO DemoApplicationTests:655 ---- The following profiles are active: dev
+2019-12-04 10:37:42,353  INFO DemoApplicationTests:61 ---- Started DemoApplicationTests in 12.267 seconds (JVM running for 13.151)
+2019-12-04 10:39:17,753  INFO DemoApplicationTests:655 ---- The following profiles are active: dev
+2019-12-04 10:39:25,938  INFO DemoApplicationTests:61 ---- Started DemoApplicationTests in 11.9 seconds (JVM running for 12.746)
+2019-12-04 10:47:20,735  INFO DemoApplicationTests:655 ---- The following profiles are active: dev
+2019-12-04 10:47:28,824  INFO DemoApplicationTests:61 ---- Started DemoApplicationTests in 11.835 seconds (JVM running for 12.691)
+2019-12-04 11:03:10,083  INFO DemoApplicationTests:655 ---- The following profiles are active: dev
+2019-12-04 11:03:18,706  INFO DemoApplicationTests:61 ---- Started DemoApplicationTests in 13.003 seconds (JVM running for 13.946)
+2019-12-04 11:08:10,137  INFO DemoApplicationTests:655 ---- The following profiles are active: dev
+2019-12-04 11:08:17,479  INFO DemoApplicationTests:61 ---- Started DemoApplicationTests in 11.072 seconds (JVM running for 11.935)
+2019-12-04 11:09:03,585  INFO DemoApplication:655 ---- The following profiles are active: dev
+2019-12-04 11:09:10,991  INFO DemoApplication:61 ---- Started DemoApplication in 11.103 seconds (JVM running for 11.905)
+2019-12-04 11:11:25,174  INFO DemoApplication:655 ---- The following profiles are active: dev
+2019-12-04 11:11:32,458  INFO DemoApplication:61 ---- Started DemoApplication in 10.794 seconds (JVM running for 11.62)
+2019-12-04 11:12:18,147  INFO DemoApplication:655 ---- The following profiles are active: dev
+2019-12-04 11:12:25,350  INFO DemoApplication:61 ---- Started DemoApplication in 10.7 seconds (JVM running for 11.434)
+2019-12-04 11:13:29,208  INFO DemoApplication:655 ---- The following profiles are active: dev
+2019-12-04 11:13:37,429  INFO DemoApplication:61 ---- Started DemoApplication in 11.773 seconds (JVM running for 12.629)
+2019-12-04 11:17:59,431  INFO DemoApplication:655 ---- The following profiles are active: dev
+2019-12-04 11:18:07,367  INFO DemoApplication:61 ---- Started DemoApplication in 11.525 seconds (JVM running for 12.303)
+2019-12-04 11:20:03,228  INFO DemoApplication:655 ---- The following profiles are active: dev
+2019-12-04 11:20:10,856  INFO DemoApplication:61 ---- Started DemoApplication in 11.155 seconds (JVM running for 11.919)
+2019-12-04 11:28:39,401  INFO DemoApplication:655 ---- The following profiles are active: dev
+2019-12-04 11:28:47,227  INFO DemoApplication:61 ---- Started DemoApplication in 11.326 seconds (JVM running for 12.116)

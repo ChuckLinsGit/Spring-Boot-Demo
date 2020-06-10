@@ -1,0 +1,99 @@
+#自定义变量
+my:
+    spring-boot:
+        application-propertitie : Test
+
+#设置静态资源路径
+spring:
+    thymeleaf:
+        prefix : classpath:/templates/
+
+#设置数据源,使用多数据源时必须使用jdbc-url，官方文档的解释是：
+#因为连接池的实际类型没有被公开，所以在您的自定义数据源的元数据中没有生成密钥，而且在IDE中没有完成(因为DataSource接口没有暴露属性)。
+#另外，如果您碰巧在类路径上有Hikari，那么这个基本设置就不起作用了，因为Hikari没有url属性(但是确实有一个jdbcUrl属性)
+    datasource:
+        #主数据源
+        primary:
+            #各参数意义：
+            #characterEncoding=UTF-8设置编码集
+            #serverTimezone=GMT%2B8 MySQL8.0之后需要指定时区，GMT+8时区描述为GMT%2B8
+            #zeroDateTimeBehavior=CONVERT_TO_NULL 解决操作值为0的timestamp时会出现的错误
+            #url : jdbc:mysql://localhost:3306/mybatis_test?characterEncoding=UTF-8&serverTimezone=GMT%2B8&zeroDateTimeBehavior=CONVERT_TO_NULL
+            jdbc-url : jdbc:mysql://localhost:3306/mybatis_test?characterEncoding=UTF-8&serverTimezone=GMT%2B8&zeroDateTimeBehavior=CONVERT_TO_NULL
+            username : root
+            password : 1234
+            #com.mysql.jdbc.Driver com.mysql.cj.jdbc.Driver
+            driver-class-name : com.mysql.cj.jdbc.Driver
+#        次数据源
+        secondary:
+            #各参数意义：
+            #characterEncoding=UTF-8设置编码集
+            #serverTimezone=GMT%2B8 MySQL8.0之后需要指定时区，GMT+8时区描述为GMT%2B8
+            #zeroDateTimeBehavior=CONVERT_TO_NULL 解决操作值为0的timestamp时会出现的错误
+            #url : jdbc:mysql://localhost:3306/mybatis_test?characterEncoding=UTF-8&serverTimezone=GMT%2B8&zeroDateTimeBehavior=CONVERT_TO_NULL
+            jdbc-url : jdbc:mysql://localhost:3306/mybatis_test?characterEncoding=UTF-8&serverTimezone=GMT%2B8&zeroDateTimeBehavior=CONVERT_TO_NULL
+            username : root
+            password : 1234
+            #com.mysql.jdbc.Driver com.mysql.cj.jdbc.Driver
+            driver-class-name : com.mysql.cj.jdbc.Driver
+
+    # AOP切面配置
+    aop:
+        auto : true #默认开启
+        proxy-target-class: false # false开启jdk动态动态代理，true开启CGLIB动态代理，默认为false
+
+    #springboot自带日志
+    #配置格式：logging.level.*=LEVEL
+    #
+    #logging.level：日志级别控制前缀，*为包名或Logger名
+    #LEVEL：选项TRACE, DEBUG, INFO, WARN, ERROR, FATAL, OFF
+    #举例：
+    #
+    #logging.level.com.didispace=DEBUG：com.didispace包下所有class以DEBUG级别输出
+    #logging.level.root=WARN：root日志以WARN级别输出
+
+    #多环境（开发环境、测试环境和生产环境）日志配置
+    #使用profiles.active属性指定哪种环境的日志配置生效
+    #也可以通过更改springboot执行命令来指定：java -jar xxx.jar --spring.profiles.active=prod
+    profiles:
+        active : dev
+
+#===========================================事实证明，springboot运行同时运行jpa和mybatis，并不会报错==================================================
+
+#设置jpa
+#jpa依赖于hibernate，而spring.jpa.properties.hibernate.hbm2ddl.auto是hibernate的配置属性，其主要作用是：自动创建、更新、验证数据库表结构。该参数的几种配置如下：
+#create：每次加载hibernate时都会删除上一次的生成的表，然后根据你的model类再重新来生成新表，哪怕两次没有任何改变也要这样执行，这就是导致数据库表数据丢失的一个重要原因。
+#create-drop：每次加载hibernate时根据model类生成表，但是sessionFactory一关闭,表就自动删除。
+#update：最常用的属性，第一次加载hibernate时根据model类会自动建立起表的结构（前提是先建立好数据库，与validate模式的区别），以后加载hibernate时根据model类自动更新表结构，即使表结构改变了但表中的行仍然存在不会删除以前的行。要注意的是当部署到服务器后，表结构是不会被马上建立起来的，是要等应用第一次运行起来后才会。
+#validate：每次加载hibernate时，验证创建数据库表结构，只会和数据库中的表进行比较，不会创建新表，但是会插入新值。
+    jpa:
+        properties:
+            hibernate:
+                hbm2ddl:
+                    auto : create-drop
+        #        hibernate需要指定方言，而且必须是InnoDBDialect，否则建表时使用MYISAM引擎将出错
+        #        database-platform : org.hibernate.dialect.MySQLDialect
+        database-platform : org.hibernate.dialect.MySQL5InnoDBDialect
+
+    #rabbitmq配置
+    #注意：使用的账号必须有能使用vhost的权限
+    rabbitmq:
+        host: localhost
+        port: 5672
+        username: chuck
+        password: 123456
+
+#mybatis配置
+#将自动寻找数据源
+mybatis:
+    mapper-locations : classpath:/mappers/*.xml
+    type-aliases-package : com.example.demo.mybatis.bean
+
+#开启mybatis打印SQL
+logging:
+  level:
+    com.example.demo.mybatis.DAO : debug
+
+#指定服务器的端口号
+server:
+    port: 8080

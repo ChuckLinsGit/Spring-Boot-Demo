@@ -1,0 +1,41 @@
+2019-12-27 09:58:34,228  INFO DemoApplication:655 ---- The following profiles are active: dev
+2019-12-27 09:58:45,338  INFO DemoApplication:61 ---- Started DemoApplication in 13.267 seconds (JVM running for 14.572)
+2019-12-27 10:03:24,628  INFO DemoApplication:655 ---- The following profiles are active: dev
+2019-12-27 10:03:31,182  INFO DemoApplication:61 ---- Started DemoApplication in 8.415 seconds (JVM running for 9.342)
+2019-12-27 10:03:59,692  INFO RESTfulController:30 ---- =====<Get student with id: 1>=====
+2019-12-27 10:04:18,193  INFO RESTfulController:49 ---- =====<Get student with id: 1>=====
+2019-12-27 10:04:55,806  INFO RESTfulController:60 ---- =====<Post student Student(sid=null, name=null, age=null, score=null, classid=null)>=====
+2019-12-27 10:05:54,539  INFO RESTfulController:60 ---- =====<Post student Student(sid=null, name=null, age=null, score=null, classid=null)>=====
+2019-12-27 10:05:55,443  INFO RESTfulController:60 ---- =====<Post student Student(sid=null, name=null, age=null, score=null, classid=null)>=====
+2019-12-27 10:05:55,775  INFO RESTfulController:60 ---- =====<Post student Student(sid=null, name=null, age=null, score=null, classid=null)>=====
+2019-12-27 10:08:39,588  INFO RESTfulController:60 ---- =====<Post student Student(sid=null, name=null, age=null, score=null, classid=null)>=====
+2019-12-27 10:09:06,394  INFO RESTfulController:60 ---- =====<Post student Student(sid=null, name=null, age=null, score=null, classid=null)>=====
+2019-12-27 10:16:12,058  INFO RESTfulController:60 ---- =====<Post student Student(sid=null, name=null, age=null, score=null, classid=null)>=====
+2019-12-27 10:17:12,743  INFO RESTfulController:60 ---- =====<Post student Student(sid=null, name=null, age=null, score=null, classid=null)>=====
+2019-12-27 10:26:14,627  INFO RESTfulController:60 ---- =====<Post student Student(sid=null, name=null, age=null, score=null, classid=null)>=====
+2019-12-27 10:26:57,076  INFO RESTfulController:60 ---- =====<Post student Student(sid=null, name=null, age=null, score=null, classid=null)>=====
+2019-12-27 10:31:05,354  INFO RESTfulController:60 ---- =====<Post student Student(sid=null, name=null, age=null, score=null, classid=null)>=====
+2019-12-27 10:31:34,014  INFO RESTfulController:60 ---- =====<Post student Student(sid=null, name=null, age=null, score=null, classid=null)>=====
+2019-12-27 10:32:07,870  INFO RESTfulController:60 ---- =====<Post student Student(sid=null, name=null, age=null, score=null, classid=null)>=====
+2019-12-27 10:33:02,734  INFO RESTfulController:60 ---- =====<Post student Student(sid=null, name=null, age=null, score=null, classid=null)>=====
+2019-12-27 10:33:48,101  INFO DemoApplication:655 ---- The following profiles are active: dev
+2019-12-27 10:33:55,104  INFO DemoApplication:61 ---- Started DemoApplication in 8.63 seconds (JVM running for 9.508)
+2019-12-27 10:35:31,396  INFO DemoApplication:655 ---- The following profiles are active: dev
+2019-12-27 10:35:37,434  INFO DemoApplication:61 ---- Started DemoApplication in 7.945 seconds (JVM running for 8.781)
+2019-12-27 10:37:02,279  INFO DemoApplication:655 ---- The following profiles are active: dev
+2019-12-27 10:37:08,193  INFO DemoApplication:61 ---- Started DemoApplication in 7.56 seconds (JVM running for 8.427)
+2019-12-27 10:39:00,626  INFO DemoApplication:655 ---- The following profiles are active: dev
+2019-12-27 10:39:06,853  INFO DemoApplication:61 ---- Started DemoApplication in 7.849 seconds (JVM running for 8.68)
+2019-12-27 10:42:19,123  INFO DemoApplication:655 ---- The following profiles are active: dev
+2019-12-27 10:42:25,055  INFO DemoApplication:61 ---- Started DemoApplication in 7.616 seconds (JVM running for 8.492)
+2019-12-27 10:42:52,454  INFO DemoApplication:655 ---- The following profiles are active: dev
+2019-12-27 10:42:58,377  INFO DemoApplication:61 ---- Started DemoApplication in 7.721 seconds (JVM running for 8.604)
+2019-12-27 10:49:02,245  INFO RESTfulController:57 ---- =====<Post student Student(sid=1, name=chuck, age=1, score=100, classid=1)>=====
+2019-12-27 10:49:28,558  INFO DemoApplication:655 ---- The following profiles are active: dev
+2019-12-27 10:49:34,466  INFO DemoApplication:61 ---- Started DemoApplication in 7.573 seconds (JVM running for 8.39)
+2019-12-27 10:49:54,196  INFO RESTfulController:57 ---- =====<Post student Student(sid=null, name=null, age=null, score=null, classid=null)>=====
+2019-12-27 10:50:24,809  INFO RESTfulController:68 ---- =====<Put student Student(sid=null, name=null, age=null, score=null, classid=null)>=====
+2019-12-27 10:50:36,744  INFO DemoApplication:655 ---- The following profiles are active: dev
+2019-12-27 10:50:42,967  INFO DemoApplication:61 ---- Started DemoApplication in 7.935 seconds (JVM running for 8.748)
+2019-12-27 10:51:01,820  INFO RESTfulController:68 ---- =====<Put student Student(sid=1, name=chuck, age=1, score=100, classid=1)>=====
+2019-12-27 10:52:35,552  INFO RESTfulController:79 ---- =====<Delete student with id: 1>=====
